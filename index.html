@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, intial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie-edge" />
+		<title>Referral Form</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="contact-container">
+			<form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+				<div class="contact-left-title">
+					<h2>Refer a Friend</h2>
+					<hr>
+				</div>
+                <input type="hidden" name="access_key" value="eb3d1c8e-e62c-4f69-8acf-4e6268412a74">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required />
+				<input type="text" name="name" placeholder="Contact Name" class="contact-inputs" required />
+				<input type="text" name="number" placeholder="Phone Number" class="contact-inputs" required />
+				<input type="text" name="email" placeholder="Email" class="contact-inputs" />
+				<button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+			</form>
+            <div class="contact-right">
+                <img src="/assets/right_img.png" alt="">
+            </div>
+		</div>
+	</body>
+</html>
